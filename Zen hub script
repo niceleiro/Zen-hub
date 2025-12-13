@@ -14,25 +14,21 @@ local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao14
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
-    Title = "KHS Hub| Brookhaven RP_1.1.0🏡 ",
-    SubTitle = "by: INC0MUN studios",
-    LoadText = "Carregando INC0MUN hub",
-    Flags = "Inc0munHub_Broookhaven"
+    Title = "Zen hub| Brookhaven RP_1.1.0🏡 ",
+    SubTitle = "by: Slikezada",
+    LoadText = "Zen hub",
+    Flags = "Carregando Zen Hub"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://18751483361", BackgroundTransparency = 0 },
+    Button = { Image = "", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
-local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://15309138473" })
 
 
 
 InfoTab:AddSection({ "Informações do Script" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Vs⁷⁷⁷ GL" })
-InfoTab:AddParagraph({ "Colaborações:", ", , Bah, Nick, Anthex" })
-InfoTab:AddParagraph({ "Você está usando:", "INC0MUN Hub " })
-InfoTab:AddParagraph({"Your executor:", executor})
+InfoTab:AddParagraph({ "Owner / Developer:", "Slikezada" })
 
 InfoTab:AddSection({ "Rejoin" })
 InfoTab:AddButton({
