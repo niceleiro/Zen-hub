@@ -20,7 +20,7 @@ local Window = Libary:MakeWindow({
     Flags = "Carregando Zen Hub"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://18751483361", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
